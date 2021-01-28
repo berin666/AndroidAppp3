@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:gravity="center">
+
+    <EditText
+        android:id="@+id/etfirst"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Your First Name"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Click to Save"
+            android:id="@+id/btsave"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btRetrieve"
+            android:text="retrun"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center"
+            android:gravity="center" />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/txFirstName"
+            android:text="ABCD"
+            android:gravity="center"
+            style="@style/Base.TextAppearance.AppCompat.Large"
+            android:layout_gravity="center"/>
+
+
+
+
+
+</LinearLayout>
+
+</LinearLayout>
